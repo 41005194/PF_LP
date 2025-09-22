@@ -1,0 +1,4 @@
+[debug] [pf-test] Classpath dependencies List()
+[debug] [pf-test] Dependencies from configurations List(pf)
+[debug] Bloop wrote the configuration of project 'pf-test' to '/home/41005194/PF/pf/.bloop/pf-test.json'
+[success] Generated .bloop/pf-test.json

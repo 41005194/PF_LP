@@ -45,6 +45,7 @@ object Td1 {
     val tagSelecteur: Information => String = _.tags.mkString(", ")
     val timestampSelecteur: Information => String = _.timestamp.toString
 
+
     def test(): Unit = {
         val rawInformation = List(
             "2017-05-08T14:39:06 -- France -- This is an information -- tag1 -- 2€",

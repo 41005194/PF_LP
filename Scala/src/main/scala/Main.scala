@@ -25,5 +25,7 @@ object Main extends App {
   println(firstwo(liste))               // Output: List(1, 2)
   println(lastwo(liste))                // Output: List(4, 5)
   println(movedFirstTwoToTheEnd(liste)) // Output: List(3, 4, 5, 1, 2)
-  println(insertedBeforeLast(liste, 99)) // Output: List(1, 2, 3, 4,
+  println(insertedBeforeLast(liste, 99)) // Output: List(1, 2, 3, 4, 99, 5)
+  val main = new Test()
+  main.WordScore.test()
 }
